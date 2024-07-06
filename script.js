@@ -3,7 +3,7 @@ document.getElementById('check-btn').addEventListener('click', () => {
   const resultsDiv = document.getElementById('results-div');
 
   if (userInput === '') {
-    alert ('PleaSe provide a phone number!');
+    resultsDiv.innerText ('PleaSe provide a phone number!');
     return;
   }
 
