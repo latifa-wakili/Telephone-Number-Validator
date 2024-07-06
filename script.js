@@ -3,9 +3,9 @@ document.getElementById('check-btn').addEventListener('click', () => {
   const resultsDiv = document.getElementById('results-div');
 
   if (userInput === '') {
-Alert('PleaSe provide a phone number');
-  return;
-  }
+alert('PleaSe provide a phone number');
+      return;
+    }
 
   const regex = /^(1\s?)?(\(\d{3}\)|\d{3})[-\s]?\d{3}[-\s]?\d{4}$/;
 
