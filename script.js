@@ -2,8 +2,8 @@ document.getElementById('check-btn').addEventListener('click', () => {
   const userInput = document.getElementById('user-input').value;
   const resultsDiv = document.getElementById('results-div');
 
-  if (userInput === '') {
-    customAlert('PleaSe provide a phone number');
+  if (userInput === "") {
+    customAlert("PleaSe provide a phone number!");
     return;
   }
 
