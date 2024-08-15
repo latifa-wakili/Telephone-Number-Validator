@@ -6,6 +6,7 @@ A telephone number validator created using JavaScript, HTML, and CSS is a simple
 
 
 ## Demo 📸
+https://latifa-wakili.github.io/Telephone-Number-Validator/
 ![Demo](T-N-V.png)
 ## Technologies Used 🛠️
 
